@@ -10,7 +10,7 @@ function App() {
         
         <div className="md:ml-11">
         <img src={versicherungenLogo} className="w-screen md:w-2/3 xl:w-1/3 pt-40"/>
-        <h1 className='pt-11  sm:px-2 text-4xl md:text-5xl text-center md:text-left font-bold text-white '>Praktikumsbericht</h1>
+        <h1 className='pt-11 md:ml-3  sm:px-2 text-4xl md:text-5xl text-center md:text-left font-bold text-white '>Praktikumsbericht</h1>
         </div>
         
       </header>
