@@ -8,8 +8,10 @@ function App() {
     <div>
       <header className='h-screen bg-cover bg-center bg-[url("./img/P1050064_bearbeitet.jpg")] bg-zinc-800 bg-blend-overlay mb-5'>
         
+        <div className="md:ml-11">
         <img src={versicherungenLogo} className="w-screen md:w-2/3 xl:w-1/3 pt-40"/>
-        <h1 className='pt-11 pl-2 sm:px-2 text-4xl md:text-5xl text-center md:text-left font-bold text-white '>Praktikumsbericht</h1>
+        <h1 className='pt-11  sm:px-2 text-4xl md:text-5xl text-center md:text-left font-bold text-white '>Praktikumsbericht</h1>
+        </div>
         
       </header>
       
