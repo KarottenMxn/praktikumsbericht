@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import luftaufnahme from "./img/P1040870_bearbeitet.jpg"
 import versicherungenLogo from "./img/uelzenerVersicherungenLogo.png"
 import gebaudeSvg from "./img/gebaude.svg"
+import monitorSvg from "./img/bildschirm.svg"
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
       <header className='h-screen bg-cover bg-center bg-[url("./img/P1050064_bearbeitet.jpg")] bg-zinc-800 bg-blend-overlay mb-5'>
         <div className="md:flex">
           <div className="md:ml-11 flex-initial">
-            <img src={versicherungenLogo} className="w-screen md:w-2/3 pt-14 md:pt-40"/>
+            <img src={versicherungenLogo} className="w-screen md:w-2/3 pt-24 md:pt-40"/>
             <h1 className='pt-11 md:ml-3  sm:px-2 text-4xl md:text-5xl text-center md:text-left font-bold text-white '>Praktikumsbericht</h1>
           </div>
           <div className="flex-initial mt-32 md:mt-72 md:mr-4 text-center md:text-left">
@@ -30,7 +31,8 @@ const App = () => {
       
       <div className='pb-32 p-3'>
       
-            <img src={gebaudeSvg}  width="100px" className='absolute flex-initial ml-5 rotate-12 opacity-40 translate-x-48' id="down"/>
+            <img src={gebaudeSvg}  width="100px" className='absolute ml-5 rotate-12 opacity-30 translate-x-48' id="down"/>
+            <img src={monitorSvg} width="100px" className='absolute -rotate-12 opacity-40 translate-x-[30rem] translate-y-[28rem]' />
        
             <div data-aos="slide-right" className="absolute bg-lime-500 px-20 opacity-70 -z-50 mt-1">&nbsp;</div>
             <div data-aos="slide-right" className='pb-3 text-2xl font-bold z-50'>Unternehmen</div>
