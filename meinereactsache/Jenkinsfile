@@ -21,7 +21,7 @@ node {
 
     stage('deploy') {
       dir ('meinereactsache'){
-        sh 'scp -i ~/.ssh/id_rsa build/* fmgame@www472.your-server.de:/public_html'
+        sh 'scp -r -i ~/.ssh/id_rsa build/* fmgame@www472.your-server.de:/public_html'
       }
     }
 
