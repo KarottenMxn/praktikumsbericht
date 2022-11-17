@@ -11,8 +11,8 @@ node {
       //sh 'npm install react-transition-group'
       sh 'pwd'
       sh 'cd /var/lib/jenkins/workspace/Praktikum_master/meinereactsache'
-      sh 'npm install'
-      sh 'npm install react-scripts'
+      //sh 'npm install'
+      //sh 'npm install react-scripts'
       sh 'pwd'
       sh 'npm build'
     }
