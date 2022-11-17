@@ -11,6 +11,7 @@ node {
       //sh 'npm install react-transition-group'
       sh 'cd meinereactsache'
       sh 'npm install'
+      sh 'npm install react-scripts'
       sh 'npm run build'
     }
 
