@@ -31,8 +31,8 @@ const App = () => {
       
       <div className='pb-32 p-3'>
       
-            <img src={gebaudeSvg}  width="100px" className='absolute ml-5 rotate-12 opacity-30 translate-x-48' id="down"/>
-            <img src={monitorSvg} width="100px" className='absolute -rotate-12 opacity-40 translate-x-[8rem] md:translate-x-[30rem] translate-y-[48rem] md:translate-y-[28rem]'/>
+            <img src={gebaudeSvg} width="100px" className='absolute ml-5 rotate-12 opacity-30 translate-x-48' id="down"/>
+            <img src={monitorSvg} width="100px" className='absolute -rotate-12 opacity-40 translate-x-[8rem] md:translate-x-[30rem] translate-y-[60rem] md:translate-y-[28rem]'/>
        
             <div data-aos="slide-right" className="absolute bg-lime-500 px-20 opacity-70 -z-50 mt-1">&nbsp;</div>
             <div data-aos="slide-right" className='pb-3 text-2xl font-bold z-50'>Unternehmen</div>
