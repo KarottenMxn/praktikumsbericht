@@ -9,7 +9,7 @@ node {
 
     stage('npm build') {
       //sh 'npm install react-transition-group'
-      sh 'who am i'
+      sh "who am i"
       sh 'pwd'
       sh 'cd meinereactsache'
       //sh 'npm install'
