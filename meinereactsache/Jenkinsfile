@@ -9,13 +9,14 @@ node {
 
     stage('npm build') {
       //sh 'npm install react-transition-group'
-      sh "who am i"
+            
+      dir (meinereactsache){
       sh 'pwd'
-      sh 'cd meinereactsache'
       //sh 'npm install'
       //sh 'npm install react-scripts'
       sh 'pwd'
       sh 'npm build'
+      }
     }
 
     stage('deploy') {
