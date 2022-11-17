@@ -1,6 +1,5 @@
 def branch = 'master'
 def scmUrl_bericht = 'https://github.com/KarottenMxn/praktikumsbericht.git'
-def ftpServer = 'www472.your-server.de'
 
 node {
     stage('checkout frontend') {
