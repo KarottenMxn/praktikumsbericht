@@ -1,0 +1,22 @@
+def branch = 'master'
+def scmUrl_bericht = 'https://github.com/KarottenMxn/praktikumsbericht.git'
+def ftpServer = 'www472.your-server.de'
+
+node {
+    stage('checkout frontend') {
+      git branch: branch, credentialsId: 'sluecke', url: scmUrl_bericht
+    }
+
+    stage('npm build') {
+      //sh 'npm install react-transition-group'
+      sh 'npm run build'
+    }
+
+    stage('deploy') {
+      sh 'scp -i ~/.ssh/id_rsa build/* fmgame@w{ftpServer}:/public_html/praktikum'
+    }
+
+        stage('notify'){
+            mail bcc: '', body: "Build ${env.BUILD_URL} Link to Homepage: http://karottenfabrik.net/praktikum", cc: '', from: 'jenkins@xsltec.de', mimeType: 'text/html', replyTo: '', subject: 'Build and deployed new Bericht', to: 'mail@stefan-luecke.de,magnus@xsltec.de'
+        }
+}
