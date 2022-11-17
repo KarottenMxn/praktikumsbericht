@@ -1,13 +1,3 @@
 html {
   scroll-behavior: smooth;
  }
-
- @keyframes ueberschrift {
-  from {transform: translateX(-100px);}
-  to {transform: translateX(0px);}
- }
-
- .ueberschrift {
-  animation-name: ueberschrift;
-  animation-duration: 2s;
- }
