@@ -10,7 +10,7 @@ node {
     stage('npm build') {
       //sh 'npm install react-transition-group'
       sh 'pwd'
-      sh 'cd /var/lib/jenkins/workspace/Praktikum_master/meinereactsache'
+      sh 'cd meinereactsache'
       //sh 'npm install'
       //sh 'npm install react-scripts'
       sh 'pwd'
