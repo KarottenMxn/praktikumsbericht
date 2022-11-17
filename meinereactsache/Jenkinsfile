@@ -12,7 +12,7 @@ node {
       sh 'cd meinereactsache'
       sh 'npm install'
       sh 'npm install react-scripts'
-      sh 'npm run build'
+      sh 'npm run-script build'
     }
 
     stage('deploy') {
