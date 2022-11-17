@@ -8,8 +8,7 @@ node {
     }
 
     stage('npm build') {
-      //sh 'npm install react-transition-group'
-            
+      //sh 'npm install react-transition-group'     
       dir ('meinereactsache'){
       sh 'pwd'
       //sh 'npm install'
