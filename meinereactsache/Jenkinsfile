@@ -12,8 +12,8 @@ node {
             
       dir ('meinereactsache'){
       sh 'pwd'
-      //sh 'npm install'
-      //sh 'npm install react-scripts'
+      sh 'npm install'
+      sh 'npm install react-scripts'
       sh 'pwd'
       sh 'npm build'
       }
