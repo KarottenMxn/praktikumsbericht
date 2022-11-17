@@ -20,7 +20,9 @@ node {
     }
 
     stage('deploy') {
-      sh 'scp -i ~/.ssh/id_rsa build/* fmgame@w{ftpServer}:/public_html/praktikum'
+      dir ('meinereactsache'){
+        sh 'scp -i ~/.ssh/id_rsa build/* fmgame@www472.your-server.de:/public_html'
+      }
     }
 
         stage('notify'){
