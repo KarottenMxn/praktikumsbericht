@@ -24,6 +24,6 @@ node {
     }
 
         stage('notify'){
-            mail bcc: '', body: "Build ${env.BUILD_URL} Link to Homepage: http://karottenfabrik.net/praktikum", cc: '', from: 'jenkins@xsltec.de', mimeType: 'text/html', replyTo: '', subject: 'Build and deployed new Bericht', to: 'mail@stefan-luecke.de,magnus@xsltec.de'
+            mail bcc: '', body: "Build ${env.BUILD_URL} Link to Homepage: http://karottenfabrik.net", cc: '', from: 'jenkins@xsltec.de', mimeType: 'text/html', replyTo: '', subject: 'Build and deployed new Bericht', to: 'mail@stefan-luecke.de,magnus@xsltec.de'
         }
 }
