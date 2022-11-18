@@ -45,9 +45,8 @@ const App = () => {
           <div className='flex-initial md:w-1/2'>
             <div data-aos="zoom-out leading-normal">
 
-            Die Uelzener Versicherungen wurden 1873 als die <b>Viehversicherungsbank für die Provinz Hannover</b> gegründet. Das Unternehmen hat ca. 350 Mitarbeiter. Das Unternehmen hatte im Jahr 2020 1.096.603 Verträge und der Umsatz stieg im Vergleich zum Vorjahr um 11,4% auf 142,7 Mio. Euro. Gerade auch die Pandemie sollte dazu Beigetragen haben, dass viel mehr Menschen eine Versicherung für Hund oder Katze abschließen. Die Uelzener Versicherungen bieten OP- und Krankenversicherungen für Pferde, Hunde und Katzen an, bewegen sich also im tertiären Sektor.
-
-            Besonders macht das Unternehmen, dass sie die erste Versicherungsgesellschaft waren, die eine Tierkrankenversicherung angeboten haben.
+            Die Uelzener Versicherungen wurden 1873 als die <b>Viehversicherungsbank für die Provinz Hannover</b> gegründet. Das Unternehmen hat ca. <b>350 Mitarbeiter</b>. Das Unternehmen hatte im Jahr 2020 <b>1.096.603 Verträge</b> und der Umsatz stieg im Vergleich zum Vorjahr um 11,4% auf <b>142,7 Mio. Euro.</b> Den hohen Anstieg des Umsatzes soll eine Folge der Coronapandemie sein, in der viele Menschen eigene Haustiere gekauft und versichert haben. Die Uelzener Versicherungen bieten OP- und Krankenversicherungen für Pferde, Hunde und Katzen an, bewegen sich also im tertiären Sektor. Entscheidene betriebliche Veränderungen sind die Digitalisierung im Bereich der automatischen Antragserstellung. Besonders macht das Unternehmen, dass sie die erste Versicherungsgesellschaft waren, die eine Tierkrankenversicherung angeboten haben.
+            
 
 
             </div>   
@@ -74,7 +73,7 @@ const App = () => {
       </div>
       <div className="pb-72">
       <div className='md:flex mt-6 '>
-        <div data-aos="flip-right" className='flex-initial w-[90vw] pt-6 pl-6 m-5 morph'>
+        <div data-aos="flip-right" className='flex-initial w-[90vw] pt-6 pl-6 md:m-5 morph'>
           <div className="font-bold">Vorteile</div>
           <div>
             <ul className='list-disc ml-5 mt-4'>
@@ -87,7 +86,7 @@ const App = () => {
             </ul>
           </div>
         </div>
-        <div data-aos="flip-left" className='flex-initial w-[90vw] pt-6 pl-6 m-5 morph'>
+        <div data-aos="flip-left" className='flex-initial w-[90vw] pt-6 pl-6 md:m-5 morph'>
           <div className='font-bold'>
             Nachteile
           </div>
