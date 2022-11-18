@@ -63,12 +63,26 @@ const App = () => {
       <div className="pb-72">
 
         Die Uelzener Versicherungen stellen Tierversicherungen zur verfügung. Um die zum Teil sehr hohen Summen auszahlen zu können, wird mit Banken zusammengearbeitet.
+
+        schadensfall bearbeitung (bei zb OP)
+
+        wird von service center aufgenommen,
+        alle angaben werden ins system gespielt,
+        sachbearbeiter prüft schäden (bilder dazu) in akte,
+        bei größeren schäden prüft (interner)tierarzt schaden,
+        tierarzt erstellt ein gutachten,
+        summe des gutachtens wird dem kunden überwiesen
+
+        bei tierkrankenversicherung läuft es wie bei normal für menschen
+
+
+
       </div>
       </div>
       <div className='p-3'>
       <div data-aos="slide-right" className="absolute bg-lime-500 px-[12rem] sm:px-[17rem] opacity-70 -z-50 mt-1">&nbsp;</div>
       <div data-aos="slide-right" className="absolute bg-lime-500 px-[5rem] mt-9 opacity-70 sm:invisible">&nbsp;</div>
-      <div data-aos="slide-right"className='text-2xl font-bold'>
+      <div data-aos="slide-right"className='text-2xl font-bold z-50'>
         Vor- und Nachteile zunehmender Digitalisierung
       </div>
       <div className="pb-72">
