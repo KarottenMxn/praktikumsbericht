@@ -94,7 +94,7 @@ const App = () => {
           <div>
             <ul className='list-disc ml-5 mt-4'>
               <li>Datenschutz erschwert</li>
-              <li>Caberkriminalität</li>
+              <li>Cyberkriminalität</li>
               <li>Server Ausfälle</li>
               <li>Energieabhängigkeit</li>
             </ul>
