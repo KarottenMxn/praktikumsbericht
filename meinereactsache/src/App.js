@@ -20,7 +20,7 @@ const App = () => {
         <div className="md:flex">
           <div className="md:ml-11 flex-initial">
             <img src={versicherungenLogo} className="w-screen md:w-2/3 pt-24 md:pt-40"/>
-            <h1 className='pt-11 md:ml-3  sm:px-2 text-4xl md:text-5xl text-center md:text-left font-bold text-white '>Praktikumsbericht</h1>
+            <h1 className='pt-11 md:ml-3  sm:px-2 text-4xl md:text-5xl text-center md:text-left font-bold text-white'>Praktikumsbericht</h1>
           </div>
           <div className="flex-initial mt-32 md:mt-72 md:mr-4 text-center md:text-left">
             <a className="transition ease-in-out delay-150 bg-lime-600 hover:-translate-y-1 hover:bg-lime-700 duration-300 text-white font-bold py-2 px-4 rounded" href="#down">Unternehmen</a>
@@ -43,8 +43,13 @@ const App = () => {
 
         <div className='md:flex'>
           <div className='flex-initial md:w-1/2'>
-            <div data-aos="zoom-out">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  
+            <div data-aos="zoom-out leading-normal">
+
+            Die Uelzener Versicherungen wurden 1873 als die <b>Viehversicherungsbank für die Provinz Hannover</b> gegründet. Das Unternehmen hat ca. 350 Mitarbeiter. Das Unternehmen hatte im Jahr 2020 1.096.603 Verträge und der Umsatz stieg im Vergleich zum Vorjahr um 11,4% auf 142,7 Mio. Euro. Gerade auch die Pandemie sollte dazu Beigetragen haben, dass viel mehr Menschen eine Versicherung für Hund oder Katze abschließen. Die Uelzener Versicherungen bieten OP- und Krankenversicherungen für Pferde, Hunde und Katzen an, bewegen sich also im tertiären Sektor.
+
+            Besonders macht das Unternehmen, dass sie die erste Versicherungsgesellschaft waren, die eine Tierkrankenversicherung angeboten haben.
+
+
             </div>   
           </div>
           <div className='flex-initial md:w-1/2 pt-6 md:pt-0'>
@@ -56,7 +61,10 @@ const App = () => {
       <div className='p-3'>
       <div data-aos="slide-right" className="absolute bg-lime-500 px-48 opacity-70 -z-50 mt-1">&nbsp;</div>
         <div data-aos="slide-right" className='pb-6 text-2xl font-bold z-50 ueberschrift' id="down">Abläufe des Unternehmens</div>
-      <div className="pb-72">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+      <div className="pb-72">
+
+        Die Uelzener Versicherungen stellen Tierversicherungen zur verfügung. Um die zum Teil sehr hohen Summen auszahlen zu können, wird mit Banken zusammengearbeitet.
+      </div>
       </div>
       <div className='p-3'>
       <div data-aos="slide-right" className="absolute bg-lime-500 px-[12rem] sm:px-[17rem] opacity-70 -z-50 mt-1">&nbsp;</div>
@@ -65,7 +73,34 @@ const App = () => {
         Vor- und Nachteile zunehmender Digitalisierung
       </div>
       <div className="pb-72">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      <div className='md:flex mt-6 '>
+        <div data-aos="flip-right" className='flex-initial w-[90vw] pt-6 pl-6 m-5 morph'>
+          <div className="font-bold">Vorteile</div>
+          <div>
+            <ul className='list-disc ml-5 mt-4'>
+              <li>Buchhaltung einfacher</li>
+              <li>Komfortableres abschließen von Versicherungen für Kunden</li>              
+              <li>schnellere Verarbeitung von Daten</li>              
+              <li>Akten/Archiv kann einfacher betreut werden</li>
+
+              <li className='mb-10'>test</li>              
+            </ul>
+          </div>
+        </div>
+        <div data-aos="flip-left" className='flex-initial w-[90vw] pt-6 pl-6 m-5 morph'>
+          <div className='font-bold'>
+            Nachteile
+          </div>
+          <div>
+            <ul className='list-disc ml-5 mt-4'>
+              <li>Datenschutz erschwert</li>
+              <li>Caberkriminalität</li>
+              <li>Server Ausfälle</li>
+              <li>Energieabhängigkeit</li>
+            </ul>
+          </div>
+        </div>
+      </div>
       </div>
 
       
